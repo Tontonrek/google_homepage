@@ -15,13 +15,40 @@ sous classe : confidentialité/ conditions/ parametres;
 */
 
 
-.entete
-{
-	color: blue;
+a {
+	color: #404040;
+	text-decoration: none;
+
+
+}
+a:hover {
+	text-decoration: underline;
 }
 
-#connexion {
+
+.entete
+{
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	color: #404040;
 	
+}
+
+
+
+.connex
+{
+	font-size: 13px;
+	font-weight:bold;
+	width: 180px;
+	height : 90px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: dodgerblue;
+	font-family: Arial, sans-serif;
+	
+
 }
 
 .onglet_gris

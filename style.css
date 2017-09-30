@@ -1,37 +1,29 @@
-/*My Google Homepage CSS
-
-Trame :
-class  gmail & image
-logo ?
-id  connexion
-
-id : france
-class : deux bouton du milieu;
-
-class: pied de page
-sous classe : publicité/entreprise/A propos
-sous classe : confidentialité/ conditions/ parametres;
-
-*/
-
-
-a {
-	color: #404040;
-	text-decoration: none;
-
+body {
+	margin:20px;
+	padding: 0px;
 
 }
-a:hover {
-	text-decoration: underline;
+
+header {
+	float: right;
 }
 
 
 .entete
 {
-	font-size: 13px;
 	font-family: Arial, sans-serif;
-	color: #404040;
+	padding : 10px;
 	
+	
+}
+
+a.entete{
+	text-decoration: none;
+	font-size: 13px;
+	color: #404040;
+}
+a:hover.entete {
+	text-decoration: underline;
 }
 
 
@@ -42,7 +34,8 @@ a:hover {
 	font-weight:bold;
 	width: 180px;
 	height : 90px;
-	padding: 10px;
+	padding: 8px;
+	border-radius: 2px;
 	text-align: center;
 	color: white;
 	background-color: dodgerblue;
@@ -51,9 +44,38 @@ a:hover {
 
 }
 
-.onglet_gris
-{
+.onglet_gris {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	width: 180px;
+	height: 90px;
+	padding: 12px;
+	margin: 2px;
+	border-radius: 2px;
+	text-align: center;
+	color: #808080;
+	background-color: whitesmoke;
+}
 
+a.onglet_gris {
+	text-decoration: none;
+	
+}
+a:hover.onglet_gris {
+	color: #000000;
+	border: 1px solid #bfbfbf;
+}
+
+footer {
+	font-family: Arial, sans-serif;
+	padding: 10px;
+	background-color: whitesmoke;
+}
+a footer {
+	text-decoration: none;
+	font-size: 13px;
+	color: #404040;
 }
 
 .pied_de_page

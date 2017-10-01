@@ -1,0 +1,98 @@
+body {
+	margin:0px;
+	padding: 0px;
+
+}
+
+.header {
+	text-align: right;
+	font-family: Arial, sans-serif;
+	padding : 20px;
+	height: 2vh;
+}
+
+.header a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #404040;
+	padding: 10px;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+
+.header #connex
+{
+	font-size: 13px;
+	font-weight:bold;
+	width: 180px;
+	height : 90px;
+	padding: 8px;
+	border-radius: 2px;
+	text-align: center;
+	color: white;
+	background-color: dodgerblue;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+.logo {
+	height: 30vh;
+	background-color: yellow; 
+}
+.searchzone {
+	height: 5vh;
+	background-color: orange;
+
+}
+
+.two_buttons {
+	height: 54vh;
+	background-color: yellow;
+	text-align: center;
+}
+
+.gray_button {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	width: 180px;
+	height: 90px;
+	padding: 12px;
+	margin: 2px;
+	border-radius: 2px;
+	text-align: center;
+	color: #808080;
+	background-color: whitesmoke;
+}
+
+.gray_button a {
+	text-decoration: none;
+	
+}
+.gray_button a:hover {
+	color: #000000;
+	border: 1px solid #bfbfbf;
+}
+.core {
+	height: 50vh;
+	background-color: blue;
+}
+.footer {
+	font-family: Arial, sans-serif;
+	padding: 10px;
+	background-color: whitesmoke;
+}
+.footer a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #404040;
+}
+
+
+
+
+
+
+
+
+

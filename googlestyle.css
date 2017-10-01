@@ -37,7 +37,16 @@ body {
 }
 .logo {
 	height: 30vh;
-	background-color: yellow; 
+	background-image: url("https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#country {
+	color: blue;
+	font-family: Arial, sans-serif;
+	position: relative;
+	top: 18vh;
+	left: 102vh;
 }
 .searchzone {
 	height: 5vh;

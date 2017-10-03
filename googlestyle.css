@@ -1,7 +1,6 @@
 body {
 	margin:0px;
 	padding: 0px;
-
 }
 
 .header {
@@ -9,6 +8,7 @@ body {
 	font-family: Arial, sans-serif;
 	padding : 20px;
 	height: 2vh;
+
 }
 
 .header a {
@@ -17,6 +17,7 @@ body {
 	color: #404040;
 	padding: 10px;
 }
+
 .header a:hover {
 	text-decoration: underline;
 }
@@ -34,12 +35,19 @@ body {
 	background-color: dodgerblue;
 	font-family: Arial, sans-serif;
 	text-decoration: none;
+	cursor: default;
 }
+
+.header #connex:active {
+	background-color: navy;
+}
+
 .logo {
 	height: 30vh;
 	background-image: url("https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
 	background-position: center;
 	background-repeat: no-repeat;
+
 }
 #country {
 	color: blue;
@@ -49,15 +57,24 @@ body {
 	left: 102vh;
 }
 .searchzone {
-	height: 5vh;
-	background-color: orange;
-
+	height: 8vh;
+	text-align: center;
+	
+}
+#research {
+	height: 4vh;
+	width: 54vh;
+	background-color: white;
+	box-shadow: 0px 4px 6px 3px gainsboro;
+	border-style: hidden;
+	
 }
 
 .two_buttons {
-	height: 54vh;
-	background-color: yellow;
+	height: 48vh;
+	background-color: white;
 	text-align: center;
+
 }
 
 .gray_button {
@@ -72,29 +89,41 @@ body {
 	text-align: center;
 	color: #808080;
 	background-color: whitesmoke;
+	text-decoration: none;
 }
 
-.gray_button a {
+a .gray_button {
 	text-decoration: none;
 	
 }
-.gray_button a:hover {
+.gray_button:hover {
 	color: #000000;
 	border: 1px solid #bfbfbf;
 }
-.core {
-	height: 50vh;
-	background-color: blue;
-}
+
+
 .footer {
 	font-family: Arial, sans-serif;
 	padding: 10px;
+	height: 3vh;
 	background-color: whitesmoke;
 }
 .footer a {
 	text-decoration: none;
 	font-size: 13px;
 	color: #404040;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer_right {
+	float: right;
+	text-align: right;
+}
+
+.footer_left {
+	text-align: left;
 }
 
 
